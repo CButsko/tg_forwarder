@@ -46,7 +46,7 @@
     },
     "BOT_TOKEN": {
       "description": "(Optional) Put your bot token only if you are running tgcf live with a bot account. To create a new bot, go to @BotFather in Telegram.",
-      "value": "5787899365:AAFesn6lk_9OBiHH4M9bPPYqsCgKFkSiNJ8",
+      "value": "",
       "required": false
     },
     "SESSION_STRING": {
