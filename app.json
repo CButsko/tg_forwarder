@@ -9,12 +9,12 @@
   "env": {
     "API_ID": {
       "description": "Put the API ID obtained from my.telegram.org",
-      "value": "",
+      "value": "878064",
       "required": true
     },
     "API_HASH": {
       "description": "Put the API HASH obtained from my.telegram.org",
-      "value": "",
+      "value": "5b79fefaf4c4065fddb0409ea466bb95",
       "required": true
     },
     "TGCF_MODE": {
