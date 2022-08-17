@@ -24,12 +24,20 @@
     },
     "TGCF_CONFIG": {
       "description": "(Optional) Put the contents of tgcf.config.yml here.",
-      "value": "",
+      "value": """
+      forwards: 
+        source: -675608543
+        dest: -1001296125816
+      plugins:
+        filter:
+          text:
+            whitelist: ["good words","also nice"]
+      """,
       "required": false
     },
     "BOT_TOKEN": {
       "description": "(Optional) Put your bot token only if you are running tgcf live with a bot account. To create a new bot, go to @BotFather in Telegram.",
-      "value": "",
+      "value": "5787899365:AAFesn6lk_9OBiHH4M9bPPYqsCgKFkSiNJ8",
       "required": false
     },
     "SESSION_STRING": {
