@@ -24,7 +24,7 @@
     },
     "TGCF_CONFIG": {
       "description": "(Optional) Put the contents of tgcf.config.yml here.",
-      "value": """
+      "value": ""
         {
           "forwards": {
             "source": -675608543,
@@ -41,7 +41,7 @@
             }
           }
         }
-      """,
+      "",
       "required": false
     },
     "BOT_TOKEN": {
