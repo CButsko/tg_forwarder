@@ -24,24 +24,7 @@
     },
     "TGCF_CONFIG": {
       "description": "(Optional) Put the contents of tgcf.config.yml here.",
-      "value": ""
-        {
-          "forwards": {
-            "source": -675608543,
-            "dest": -1001296125816
-          },
-          "plugins": {
-            "filter": {
-              "text": {
-                "whitelist": [
-                  "good words",
-                  "also nice"
-                ]
-              }
-            }
-          }
-        }
-      "",
+      "value": "",
       "required": false
     },
     "BOT_TOKEN": {
