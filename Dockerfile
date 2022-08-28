@@ -8,7 +8,6 @@ RUN apt-get update && \
     apt-get install ffmpeg tesseract-ocr -y && \
     apt-get autoclean
 RUN pip install --upgrade poetry
-RUN pip install --upgrade telethon
 RUN python -m venv /venv
 COPY . .
 RUN poetry build && \
